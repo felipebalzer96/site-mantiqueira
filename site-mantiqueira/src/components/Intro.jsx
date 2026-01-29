@@ -9,16 +9,18 @@ function Intro() {
   "  >
     <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/30 to-black/60 pointer-events-none"></div>
 
-    
-      <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white z-10 text-center">
+    <div className=" mb-185 z-10 flex flex-col items-center md:mb-50"> 
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white  text-center">
        Força mecânica para quem move a pecuária
       </h1>
       <p className="text-sm md:text-2xl text-white text-center max-w-2xl z-10">
         
        Soluções completas para máquinas agrícolas .
       </p>
+      </div>
+     
 
-      <div className="  z-10 pt-30   max-w-7xl mx-auto px-6">
+      <div className=" mt-50  md:mt-70 fixed z-10 pt-30   max-w-7xl mx-auto px-6">
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-15">
 
